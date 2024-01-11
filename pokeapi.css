@@ -1,0 +1,33 @@
+body {
+    background-color: #f0f0f0; 
+    font-family: Arial, sans-serif;
+}
+
+.zona {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.card {
+    background-color: #fff; 
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    width: 200px;
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+}
+
+.card h1 {
+    margin: 10px 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    font-size: 20px;
+}
